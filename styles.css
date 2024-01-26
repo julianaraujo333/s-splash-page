@@ -51,9 +51,10 @@ p {
 }
 
 
-.top-text {
+.skip-nav-link {
     font-size: 0.875rem;
     font-weight: 900;
+    color: #fff;
     padding-top: 0.25em;
     border-top: 5px solid;
     order: -1;
@@ -121,7 +122,7 @@ p {
         width: 100%;
     }
 
-    a {
+    .form a {
         display: block;
         font-family: inherit;
         width: 100%; 
@@ -192,8 +193,11 @@ p {
         justify-content: space-between;
     }
 
-    .btn{
+    .form .btn{
         width: 45%;
     }
 
+    .skip-nav-link{
+        opacity: 0;
+    }
 }
